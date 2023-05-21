@@ -1,11 +1,11 @@
-public class Cliente {
+public class Cliente implements autenticacao {
 
     //atributos
-   private String nome;
-   private boolean status;
-   private String senha;
+    private String nome;
+    private boolean status;
+    private String senha;
 
-   //metodo construtor
+    //metodo construtor
     public Cliente(String nome, boolean status, String senha) {
         this.nome = nome;
         this.status = status;
@@ -24,4 +24,16 @@ public class Cliente {
     public String getSenha() {
         return senha;
     }
+
+    public boolean autenticaSenha(String senha) {
+        if (this.senha != senha) {
+            System.out.println("senha nao autenticada!");
+            return false;
+        }
+        System.out.println("senha autenticada!");
+        return true;
+    }
 }
+
+
+
