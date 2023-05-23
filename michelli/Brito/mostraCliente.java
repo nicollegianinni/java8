@@ -1,3 +1,5 @@
+package michelli.Brito;
+
 import java.util.function.*;
 
 public class mostraCliente implements Consumer<Cliente>{
