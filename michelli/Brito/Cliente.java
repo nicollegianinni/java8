@@ -1,3 +1,5 @@
+package michelli.Brito;
+
 public class Cliente implements autenticacao {
 
     //atributos

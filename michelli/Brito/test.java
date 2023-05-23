@@ -1,6 +1,7 @@
+package michelli.Brito;
+
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.*;
 
 public class test {
 
@@ -17,22 +18,22 @@ public class test {
 
 
         // CRIAÇÃO DE LISTA METODO TRADICIONAL
-//       List<Cliente> clientes = Arrays.asList(c1, c2, c3);
-//        for (Cliente cliente : clientes) {
+//       List<michelli.Brito.Cliente> clientes = Arrays.asList(c1, c2, c3);
+//        for (michelli.Brito.Cliente cliente : clientes) {
 //            System.out.println(cliente.getNome());
 //            System.out.println(cliente.getSenha());
 //        }
 
 
         //MOTODO DEFAULT ITERABLE -> FOR EACH
-//        List<Cliente> clientes = Arrays.asList(c1, c2, c3);
-//        mostraCliente mc = new mostraCliente();
+//        List<michelli.Brito.Cliente> clientes = Arrays.asList(c1, c2, c3);
+//        michelli.Brito.mostraCliente mc = new michelli.Brito.mostraCliente();
 //        clientes.forEach(mc);
 
-        // METODO CLASSE ANONIMA: nao precisa criar a classe "mostraCliente"
-//        List<Cliente> clientes = Arrays.asList(c1, c2, c3);
-//        Consumer<Cliente> consumer = new Consumer<Cliente>() {
-//            public void accept(Cliente c) {
+        // METODO CLASSE ANONIMA: nao precisa criar a classe "michelli.Brito.mostraCliente"
+//        List<michelli.Brito.Cliente> clientes = Arrays.asList(c1, c2, c3);
+//        Consumer<michelli.Brito.Cliente> consumer = new Consumer<michelli.Brito.Cliente>() {
+//            public void accept(michelli.Brito.Cliente c) {
 //                System.out.println(c.getNome());
 //                System.out.println(c.getSenha());
 //            }
@@ -40,8 +41,8 @@ public class test {
 //        clientes.forEach(consumer);
 
         // METODO LAMBDA :
-//        List<Cliente> clientes = Arrays.asList(c1, c2, c3);
-//        Consumer<Cliente> consumidor = c -> System.out.println(c.getNome());
+//        List<michelli.Brito.Cliente> clientes = Arrays.asList(c1, c2, c3);
+//        Consumer<michelli.Brito.Cliente> consumidor = c -> System.out.println(c.getNome());
 //        clientes.forEach(consumidor);
 
         // METODO LAMBDA REDUZIDO (usa se com uma interface funcional):
